@@ -1,17 +1,17 @@
-Credit Risk Analysis using Random Forest
+## Credit Risk Analysis using Random Forest
 
 
-Overview:
+## Overview:
 
 This project uses the "Give Me Some Credit" dataset to build a credit risk classification model using Random Forest. 
 The goal is to flag high-risk customers (likely to default) for financial institutions.
 
-Dataset:
+## Dataset:
 • File Used: cs-training.csv
 • Source: [Kaggle - Give Me Some Credit](https://www.kaggle.com/c/GiveMeSomeCredit/data)
 • Path (update as needed): C:\Users\LENOVO\Downloads\cs-training.csv
 
-Objective:
+## Objective:
 To build and evaluate a model that:
 • Handles missing values using median imputation
 • Uses SMOTE to balance the classes
@@ -19,7 +19,7 @@ To build and evaluate a model that:
 • Trains a Random Forest model
 • Evaluates performance using AUC, classification report, confusion matrix, and ROC curve
 
-Steps:
+## Steps:
 1. **Data Loading & Cleaning**:
    - Missing values handled with median imputation
    - Negative values clipped in 'MonthlyIncome' and 'NumberOfDependents'
@@ -38,7 +38,7 @@ Steps:
    - Classification Report
    - ROC Curve with AUC
 
-Dependencies:
+## Dependencies:
 • Python 3.7+
 • pandas
 • numpy
@@ -48,7 +48,7 @@ Dependencies:
 • imbalanced-learn
 • xgboost (if extended later)
 
-Install dependencies (in your terminal or Anaconda prompt):
+## Install dependencies (in your terminal or Anaconda prompt):
 pip install pandas numpy scikit-learn matplotlib seaborn imbalanced-learn
 
 Usage:
